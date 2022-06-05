@@ -1,0 +1,274 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+/* HEADER STYLE */
+
+#header_container {
+  height: 8vh;
+  background-color: rgb(51, 51, 51);
+}
+
+#header_container nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  margin: 0 2rem;
+}
+
+#header_container nav a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: white;
+  text-transform: capitalize;
+}
+#header_container nav .signup_login a {
+  margin: 1rem;
+}
+/* BODY STYLE */
+
+#body_container {
+  background-color: white;
+  width: 100%;
+  height: 85vh;
+  text-align: center;
+}
+
+#body_container h1 {
+  padding-top: 3rem;
+}
+
+/* FOOTER STYLE */
+
+#footer_container {
+  width: 100%;
+  height: 7vh;
+  background-color: rgb(51, 51, 51);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#footer_container p {
+  color: white;
+}
+
+/* REGISTER FORM STYLE */
+
+#body_container #register_container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+}
+
+#body_container #register_container .text_signup {
+  margin: 1.2rem;
+  color: rgb(51, 51, 51);
+  font-size: 1.5rem;
+}
+
+#body_container #register_container form {
+  height: 65%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#body_container #register_container form .message {
+}
+
+#body_container #register_container form .register_input {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0.5rem;
+}
+
+#body_container #register_container form .register_input input {
+  width: 50%;
+  border-radius: 2rem;
+  border: 1px solid rgb(51, 51, 51);
+  padding: 0.6rem 2rem;
+  color: white;
+  font-size: 1.2rem;
+  background-color: rgb(155, 155, 155);
+}
+
+#body_container #register_container form .register_input label {
+  color: rgb(51, 51, 51);
+  text-transform: capitalize;
+  font-size: 1.2rem;
+}
+
+#body_container #register_container form button {
+  color: white;
+  background-color: rgb(94, 94, 94);
+  text-transform: capitalize;
+  font-size: 1.2rem;
+  padding: 0.5rem 1.5rem;
+  margin: 1rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 1rem;
+}
+
+/* LOGIN FORM STYLE */
+
+#body_container #login_container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+}
+
+#body_container #login_container .text_login {
+  margin: 1.2rem;
+  color: rgb(51, 51, 51);
+  font-size: 1.5rem;
+  text-transform: capitalize;
+}
+
+#body_container #login_container form {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#body_container #login_container form .message {
+}
+
+#body_container #login_container form .login_input {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1.2rem;
+}
+
+#body_container #login_container form .login_input input {
+  width: 50%;
+  border-radius: 2rem;
+  border: 1px solid rgb(51, 51, 51);
+  padding: 0.6rem 2rem;
+  color: white;
+  font-size: 1.2rem;
+  background-color: rgb(155, 155, 155);
+}
+
+#body_container #login_container form .login_input label {
+  color: rgb(51, 51, 51);
+  text-transform: capitalize;
+  font-size: 1.2rem;
+  margin: 0.5rem;
+}
+
+#body_container #login_container form button {
+  color: white;
+  background-color: rgb(94, 94, 94);
+  text-transform: capitalize;
+  font-size: 1.2rem;
+  padding: 0.5rem 1.5rem;
+  margin: 1.5rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 1rem;
+}
+
+/* ERROR MESSAGES*/
+
+/* ERROR MESSAGES Register*/
+
+#body_container #register_container .message_red {
+  background-color: rgb(187, 74, 74);
+  width: 40%;
+  height: 6%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.8;
+  border: 1px solid rgb(102, 29, 29);
+  border-radius: 1rem;
+}
+
+#body_container #register_container .message_red p {
+  color: white;
+  font-size: 1.2rem;
+  padding: 0 1rem;
+}
+
+#body_container #register_container .message_green {
+  background-color: rgb(97, 187, 74);
+  width: 40%;
+  height: 6%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.8;
+  border: 1px solid rgb(64, 102, 29);
+  border-radius: 1rem;
+}
+
+#body_container #register_container .message_green p {
+  color: white;
+  font-size: 1.2rem;
+  padding: 0 1rem;
+}
+
+/* ERROR MESSAGES LOGIN */
+
+#body_container #login_container .message_red {
+  background-color: rgb(187, 74, 74);
+  width: 40%;
+  height: 6%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.8;
+  border: 1px solid rgb(102, 29, 29);
+  border-radius: 1rem;
+}
+
+#body_container #login_container .message_red p {
+  color: white;
+  font-size: 1.2rem;
+  padding: 0 1rem;
+}
+
+#body_container #login_container .message_green {
+  background-color: rgb(97, 187, 74);
+  width: 40%;
+  height: 6%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.8;
+  border: 1px solid rgb(64, 102, 29);
+  border-radius: 1rem;
+}
+
+#body_container #login_container .message_green p {
+  color: white;
+  font-size: 1.2rem;
+  padding: 0 1rem;
+}
