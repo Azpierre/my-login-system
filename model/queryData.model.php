@@ -93,5 +93,24 @@
 
         }
 
+        //GET USER INFO DATA 
+
+        public function getUserEmail( $email){
+
+            $sql = "SELECT users_email FROM users WHERE users_email=?;";
+            $stmt = $this->connect()->prepare($sql);
+            $stmt->bindParam(1, $email, PDO::PARAM_STR);
+           $stmt->execute();
+
+           $row = $stmt->fetch(PDO::FETCH_OBJ);
+
+           if ($stmt->rowCount() > 0) {
+               return $row;
+           }else{
+               return false;
+           }
+            
+        }
+
 
      }

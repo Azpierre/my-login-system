@@ -85,9 +85,6 @@
   justify-content: space-around;
 }
 
-#body_container #register_container form .message {
-}
-
 #body_container #register_container form .register_input {
   width: 100%;
   height: 15%;
@@ -153,9 +150,6 @@
   justify-content: space-around;
 }
 
-#body_container #login_container form .message {
-}
-
 #body_container #login_container form .login_input {
   width: 100%;
   height: 15%;
@@ -184,6 +178,75 @@
 }
 
 #body_container #login_container form button {
+  color: white;
+  background-color: rgb(94, 94, 94);
+  text-transform: capitalize;
+  font-size: 1.2rem;
+  padding: 0.5rem 1.5rem;
+  margin: 1.5rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 1rem;
+}
+
+/* RESET PASSWORD STYLE */
+
+#body_container #reset_container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+}
+
+#body_container #reset_container .text_reset {
+  margin: 1.2rem;
+  color: rgb(51, 51, 51);
+  font-size: 1.5rem;
+}
+
+#body_container #reset_container .text_reset p {
+  margin: 1.2rem;
+}
+
+#body_container #reset_container form {
+  height: 30%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#body_container #reset_container form .reset_input {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1.2rem;
+}
+
+#body_container #reset_container form .reset_input input {
+  width: 50%;
+  border-radius: 2rem;
+  border: 1px solid rgb(51, 51, 51);
+  padding: 0.6rem 2rem;
+  color: white;
+  font-size: 1.2rem;
+  background-color: rgb(155, 155, 155);
+}
+
+#body_container #reset_container form .reset_input label {
+  color: rgb(51, 51, 51);
+  text-transform: capitalize;
+  font-size: 1.2rem;
+  margin: 0.5rem;
+}
+
+#body_container #reset_container form .reset_btn button {
   color: white;
   background-color: rgb(94, 94, 94);
   text-transform: capitalize;

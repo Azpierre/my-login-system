@@ -35,7 +35,7 @@
         </form>
 
         <div class="forgot_password"> 
-            <p>Forgot my password, <a href="">Click hier</a></p>
+            <p>Forgot my password, <a href="./resetPassword.page.php">Click hier</a></p>
         </div>
     </div>
 
