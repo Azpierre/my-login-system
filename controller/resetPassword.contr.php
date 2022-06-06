@@ -46,6 +46,10 @@
                 header("location: ../pages/resetPassword.page.php?error=incorrectEmail");
                 exit();
             }
+            else{
+                header("location: ../pages/resetPassword.page.php?success=success");
+                exit();
+            }
             
         }
 

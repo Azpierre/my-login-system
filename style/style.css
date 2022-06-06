@@ -335,3 +335,41 @@
   font-size: 1.2rem;
   padding: 0 1rem;
 }
+
+/* ERROR MESSAGES RESET PASSWORD */
+
+#body_container #reset_container .message_red {
+  background-color: rgb(187, 74, 74);
+  width: 40%;
+  height: 6%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.8;
+  border: 1px solid rgb(102, 29, 29);
+  border-radius: 1rem;
+}
+
+#body_container #reset_container .message_red p {
+  color: white;
+  font-size: 1.2rem;
+  padding: 0 1rem;
+}
+
+#body_container #reset_container .message_green {
+  background-color: rgb(97, 187, 74);
+  width: 40%;
+  height: 6%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.8;
+  border: 1px solid rgb(64, 102, 29);
+  border-radius: 1rem;
+}
+
+#body_container #reset_container .message_green p {
+  color: white;
+  font-size: 1.2rem;
+  padding: 0 1rem;
+}

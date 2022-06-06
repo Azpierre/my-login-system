@@ -14,7 +14,7 @@
 
         <?php 
     
-        include "../controller/loginError.contr.php";
+        include "../controller/resetError.contr.php";
     
         ?> 
 
